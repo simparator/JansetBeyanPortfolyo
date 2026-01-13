@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Janset Beyan</title>
+  <title>Mobile Menu</title>
 
-  <!-- MOBILE CSS -->
   <link rel="stylesheet" href="mobile.css" />
 </head>
 
@@ -27,32 +26,33 @@
     <p>Sorry, this page isn't ready yet.</p>
   </div>
 
-  <!-- BUTTONS -->
-  <div class="mobile-buttons">
+  <!-- ICON CAROUSEL -->
+  <div class="icon-carousel-wrapper">
+    <div class="icon-carousel" id="iconCarousel">
 
-    <div class="mobile-btn" id="aboutBtn">
-      <img src="imajlar/janset_user.png" alt="About">
-      <span>About</span>
+      <div class="mobile-btn" id="aboutBtn">
+        <img src="imajlar/about.png">
+        <span>About</span>
+      </div>
+
+      <div class="mobile-btn" id="portfolioBtn">
+        <img src="imajlar/portfolio.png">
+        <span>Portfolio</span>
+      </div>
+
+      <div class="mobile-btn" id="mainBtn">
+        <img src="imajlar/mail.png">
+        <span>Main</span>
+      </div>
+
+      <div class="mobile-btn" id="darkBtn">
+        <div class="dark-toggle"></div>
+        <span>Dark</span>
+      </div>
+
     </div>
-
-    <div class="mobile-btn" id="portfolioBtn">
-      <img src="imajlar/pngegg.png" alt="Portfolio">
-      <span>Portfolio</span>
-    </div>
-
-    <div class="mobile-btn" id="mainBtn">
-      <img src="imajlar/mail.png" alt="Main">
-      <span>Main</span>
-    </div>
-
-    <div class="mobile-btn" id="darkBtn">
-      <div class="dark-toggle"></div>
-      <span>Dark</span>
-    </div>
-
   </div>
 
-  <!-- MOBILE JS -->
   <script src="mobile.js"></script>
 </body>
 </html>
