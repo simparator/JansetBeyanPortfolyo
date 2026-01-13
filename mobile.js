@@ -10,7 +10,7 @@ const aboutNote = document.getElementById("aboutNote");
 const portfolioNote = document.getElementById("portfolioNote");
 
 /* ===============================
-   NOTES TOGGLE (TAP AGAIN = CLOSE)
+   NOTES TOGGLE
 =============================== */
 function toggleNote(note) {
   const isOpen = note.classList.contains("open");
@@ -32,14 +32,14 @@ portfolioBtn.addEventListener("click", () => {
 });
 
 /* ===============================
-   MAIN → INDEX.HTML
+   MAIN
 =============================== */
 mainBtn.addEventListener("click", () => {
   window.location.href = "index.html";
 });
 
 /* ===============================
-   DARK MODE (JS CONTROLLED)
+   DARK MODE
 =============================== */
 darkBtn.addEventListener("click", () => {
   document.body.classList.toggle("dark");
